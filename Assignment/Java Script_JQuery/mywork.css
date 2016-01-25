@@ -1,0 +1,186 @@
+		a 
+		{
+			text-decoration: none;
+		}
+		.hide 
+		{
+			display:none;
+		}
+		.error-fname
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-lname
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-email
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-pwd
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-mob
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-sname
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-cname
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		.error-pin
+		{
+			color:red;
+			margin-top:9px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:15px;
+			text-align:left;
+			font-weight:bold;
+		}
+		div.header
+		{
+			position:absolute;
+			background-color:DimGrey;  
+			border-style:none;
+			width:1380px;
+			height:50px;
+			top:10%;
+			left:0%;
+		}
+		div.tabletitle
+		{
+			position:absolute;
+			border-radius:50px;
+			border-style:none;
+			width:700px;
+			height:35px;
+			top:18%;
+			left:23%;
+			background-color:black;
+		
+		}
+		div.table
+		{
+			position:absolute;
+			border-style:dashed;
+			border-radius:50px;
+			background-color:SkyBlue;
+			width:1050px;
+			height:700px;
+			top:25%;
+			left:2%;
+		}
+		fieldset.fs
+		{
+			display: inline-block;
+   			margin-right: 2px;
+    			padding-top: 0.35em;
+    			padding-bottom: 0.625em;
+    			padding-left: 0.75em;
+    			padding-right: 0.75em;
+    			border: 2px groove;
+			height:600px;
+			width:800px;
+			margin-left: 25px;
+   			
+			
+		}
+		input.in,select.in
+		{
+			margin-top:4px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:14px;
+			border-radius:50px;
+			height:30px;
+			
+		}
+		label
+		{
+			display: inline-block;
+			width: 200px;
+			text-align: right;
+		}
+		input.rad
+		{
+			margin-top:10px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:14px;
+		
+		}
+		input.reg
+		{
+			margin-top:20px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:200px;
+			border-radius:50px;
+			width:80px;
+			height:40px;
+			font-weight:bold;
+		
+		}
+		input.can
+		{
+			margin-top:20px;
+			marign-right:4px;
+			margin-bottom:4px;
+			margin-left:20px;
+			border-radius:50px;
+			width:80px;
+			height:40px;
+			font-weight:bold;
+		
+		}
+			
+		

@@ -1,0 +1,57 @@
+<html>
+<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="jsonscript.js" type="text/javascript"></script>
+		<script src="myjson.json" type="text/javascript"></script>
+		<link rel="stylesheet" href="jsoncss.css">
+</head>
+<body>
+<form>
+	<center><b><h2>JSON Assignment</b></center>
+	<div class="header">
+	</div>
+	<div class="content">
+			<div class="insert" onclick="insert()">Insert
+			</div>
+			<div class="update" onclick="update()">Update
+			</div>
+			<div class="delete" onclick="del()">Delete
+			</div>
+			<div class="Records" onclick="load()">Records
+			</div>
+	</div>
+	<div id= "display" class="display">
+	</div>
+	<div class="in" id="in">
+		<p><label class="label">First Name : </label>
+			<input type="text" id="fname">
+		<label class="label">Last Name : </label>
+			<input type="text" id="lname"></p>
+		<p><label class="label">Roll No :  </label>
+			<input type="text" id="roll">
+		<label class="label">Subject : </label>
+			<input type="text" id="sub"></p>
+		<center>
+		<input type="button" id="button" value="Add Record" onclick="addrecord()">
+	</div>
+	<div class="up" id="up">
+		<p><label class="label">First Name : </label>
+			<input type="text" id="ufname">
+		<label class="label">Last Name : </label>
+			<input type="text" id="ulname"></p>
+		<p><label class="label">Roll No :  </label>
+			<input type="text" id="uroll">
+		<label class="label">Subject : </label>
+			<input type="text" id="usub"></p>
+		<center>
+		<input type="button" id="button" value="Update Record" onclick="updaterecord()">
+	</div>
+	<div class="de" id="de">
+		<p><label class="label">First Name : </label>
+			<input type="text" id="dfname">
+		
+		<input type="button" id="delet" value="Delete Record" onclick="deleterecord()">
+	</div>
+</form>
+</body>
+</html>

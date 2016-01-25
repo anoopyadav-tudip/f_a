@@ -1,0 +1,6 @@
+var text = [
+{ "firstName":"anup" , "lastName":"yaduvanshi" ,"rollno":"007" , "subject":"JSON" },
+{ "firstName":"vinayak" , "lastName":"kulkarni" ,"rollno":"111" , "subject":"Java Script" },
+{ "firstName":"kunal" , "lastName":"birhade" ,"rollno":"789" , "subject":"CSS" },
+{ "firstName":"pratik" , "lastName":"vispute" ,"rollno":"555" , "subject":"HTML" },
+{ "firstName":"ritesh" , "lastName":"singh" ,"rollno":"123" , "subject":"JQuery" } ];

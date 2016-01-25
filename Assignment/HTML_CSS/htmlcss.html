@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mywork.css">
+	<style>
+
+		a {text-decoration: none;}
+		div.login
+		{
+			position:absolute;
+			background-color:green; 
+			padding:20px; 
+			border-style:dashed; 
+			top:15%;
+			left:03%;
+			width:300px;
+			height:150px;
+		}
+		div.header
+		{
+			position:absolute;
+			background-color:DarkMagenta;  
+			border-style:none;
+			width:1380px;
+			height:50px;
+			top:0%;
+			left:0%;
+		}
+		div.footer
+		{
+			position:absolute;
+			background-color:DarkOliveGreen;  
+			border-style:none;
+			width:1380px;
+			height:50px;
+			top:95%;
+			left:0%;
+		}
+		div.right
+		{
+			position:absolute;
+			background-color:DimGrey;  
+			border-style:none;
+			width:250px;
+			height:555px;
+			top:08%;
+			left:84%;
+		}
+		div.menu
+		{
+			position:absolute;
+			background-color:Black; 
+			border-radius: 25px; 
+			border-style:none;
+			width:130px;
+			height:50px;
+			top:08%;
+			left:64%;
+		}
+	
+	</style>
+
+	<!-- Takin input of user -->
+
+	<script type="text/javascript">
+
+		function check()
+		{
+			var a=document.getElementById("uname").value;
+			var b=document.getElementById("password").value;
+
+			if(a=="" || b=="")
+				alert("Values cant be blank"); 
+			else if(a=="ab" && b=="ab")
+				alert("login sucessfull");
+			else
+				alert("wrong id & password");
+		}
+	</script>
+	
+
+</head>
+<body style="background-color:pink;">
+<form name="f">
+	
+	<div class="header">
+		<center>
+			<h1 style="font-family:courier;margin:2px 0px 5px 0px;"><marquee loop="-1" scrollamount="10" width="100%" direction="right">This is Assignement work</marquee></h1>
+		</center>
+	</div>
+
+
+	<div class="pic">
+	</div>
+	
+
+	<div class="right">
+
+		<marquee onMouseOver="this.scrollAmount=0" onMouseOut="this.scrollAmount=5" scrollamount="5" direction="up" loop="true" width="100%">
+		<center>
+			<font color="#000080" size="+1"><a href="">Administration</a></font><p>
+			<font color="#000080" size="+1"><a href="">Important Circulars</a></font><p> 
+			<font color="#000080" size="+1"><a href="">Request</a></font><p>
+			<font color="#000080" size="+1"><a href="">Blogs</a></font><p>
+			<font color="#000080" size="+1"><a href="">Contacts</a></font><p>
+			<font color="#000080" size="+1"><a href="">Query</a></font><p>
+			
+		</center>
+		</marquee>	
+
+	</div>
+
+	<div class="footer">
+
+		
+			<b><a href="" style="font-family:courier; margin:2px 0px 5px 60px; font-size:120%; color:Black">Home</a></b>
+			<b><a href="" style="font-family:courier; margin:2px 0px 5px 20px; font-size:120%; color:Black">About Us</a></b>
+			<b><a href="" style="font-family:courier; margin:2px 0px 5px 20px; font-size:120%; color:Black">Contact Us</a></b>
+			<b><a href="" style="font-family:courier; margin:2px 0px 5px 20px; font-size:120%; color:Black">Details</a></b>
+			<b><a href="" style="font-family:courier; margin:2px 0px 5px 20px; font-size:120%; color:Black">Others</a></b>
+
+			<i><a href="" style="font-family:courier; margin:2px 0px 5px 250px; font-size:120%; color:White">Follow us on:</a><i>
+
+
+			<img src="t.png" height=30px width=30px style="margin:0px 0px 5px 5px">
+			<img src="f.gif" height=30px width=30px style="margin:0px 0px 5px 10px">
+			<img src="y.png" height=30px width=30px style="margin:0px 0px 5px 10px">
+			<img src="s.png" height=30px width=30px style="margin:0px 0px 5px 10px">
+			<img src="l.png" height=30px width=30px style="margin:0px 0px 5px 10px">
+		
+	</div>
+	
+		<div class="login">	
+
+		<table>
+			<tr>
+				<td>User name :</td>
+				<td><input type="text" id="uname"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" id="password"></td>
+			</tr>
+			<tr>
+				
+				<td><input type="submit" value="Login" onclick="check()"><input type="button" value="Cancel"></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="log" text="Signin" checked> Sign in</td>
+				<td><input type="radio" name="log" value="Newuser"> New User</td>
+			</tr>
+			<tr>
+				<td><a href="" style="color:White">Forget your password</a></td>
+			</tr>
+		</table>	
+	</div>		
+</form>
+</body>
+</html>

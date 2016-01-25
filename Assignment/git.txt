@@ -1,0 +1,29 @@
+1)create folder(clone) in d drive
+2)go to d drive
+3)go in folder(clone)
+4)git clone path_of_saurab_url .(dot)//making clone of saurab directoery
+5)check clone folder( saurabh files is avail or not)
+
+
+
+
+1)create new repository on github.com
+2)check (public & read me)
+3)create folder(clone1) in d drive
+4)open cmd
+5)git clone path_of_clone1_url .(dot)//making clone of ur directoery
+6)check clone folder(ur folder is avail or not)
+7)copy ur project/folder(ass1) in clone1
+8)git add ur_folder_name(ass1) //adding into staging area
+9)git commit -m "comments" ass1
+10)git push origin master
+	enter user name : anoopyadav-tudip
+	enter password ;//not visible
+11)check ur git web, it is add or not
+
+
+
+//To update repo. on git
+1)git add assignment(folder name)
+2)git commit -m "Assignment update" assignment
+3)git push/pull

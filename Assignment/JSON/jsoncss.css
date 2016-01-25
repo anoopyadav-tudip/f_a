@@ -1,0 +1,109 @@
+div.header
+{
+	position:absolute;
+	background-color:DimGrey;  
+	border-style:none;
+	width:1380px;
+	height:50px;
+	top:10%;
+	left:0%;
+}
+div.insert
+{
+	position:absolute;
+	background-color:black;  
+	border-style:none;
+	width:150px;
+	height:50px;
+	top:10%;
+	left:10%;
+	color:white;
+	text-align: center;
+	font-size:24px;
+	line-height: 50px;
+}
+div.update
+{
+	position:absolute;
+	background-color:black;  
+	border-style:none;
+	width:150px;
+	height:50px;
+	top:10%;
+	left:25%;
+	color:white;
+	text-align: center;
+	font-size:24px;
+	line-height: 50px;
+}
+div.delete
+{
+	position:absolute;
+	background-color:black;  
+	border-style:none;
+	width:150px;
+	height:50px;
+	top:10%;
+	left:40%;
+	color:white;
+	text-align: center;
+	font-size:24px;
+	line-height: 50px;
+}
+
+div.records
+{
+	position:absolute;
+	background-color:black;  
+	border-style:none;
+	width:150px;
+	height:50px;
+	top:10%;
+	left:55%;
+	color:white;
+	text-align: center;
+	font-size:24px;
+	line-height: 50px;
+}
+div.display
+{
+	margin:150px 0px 0px 0px;
+	display:none;
+	border-style:dashed;
+}
+div.in
+{
+	margin:150px 0px 0px 50px;
+	height:150px;
+	width:1000px;
+	border-style:none;
+	display:none;
+	padding:15px;
+	
+}
+div.up
+{
+	margin:0px 0px 0px 50px;
+	height:150px;
+	width:1000px;
+	border-style:none;
+	display:none;
+	padding:15px;
+	
+}
+div.de
+{
+	margin:0px 0px 0px 250px;
+	height:50px;
+	width:1000px;
+	border-style:none;
+	display:none;
+	padding:15px;
+}
+.label
+{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+	
